@@ -62,7 +62,7 @@ jobs:
   build1:
     runs-on: ubuntu-latest
     container:
-      image: zmkfirmware/zmk-build-arm:2.5
+      image: zmkfirmware/zmk-build-arm:stable
     name: Build V1
     steps:
       - name: Checkout
